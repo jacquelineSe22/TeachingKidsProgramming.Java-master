@@ -1,0 +1,16 @@
+package org.teachingkidsprogramming.CodingChallenges;
+
+import java.util.Scanner;
+
+public class AskRows
+{
+  public static void main(String[] args)
+  {
+    Scanner scan = new Scanner(System.in);
+    System.out.print("Enter the number of rows you want to display 100 on.");
+    String rows = scan.next();
+    for (int rows = 0; rows < 10; rows++)
+    {
+    }
+  }
+}

@@ -2,3 +2,4 @@
 1450204593529	Extract local variable 'radius'
 1450284133337	Extract method 'prepareColorPalette'
 1450284270768	Extract method 'createBubble'
+1450460690545	Delete element

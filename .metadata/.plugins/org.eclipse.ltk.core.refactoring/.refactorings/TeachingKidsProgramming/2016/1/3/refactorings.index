@@ -1,0 +1,8 @@
+1452621637336	Extract method 'addACircle'
+1452621694935	Extract method 'addDot'
+1452622137338	Extract method 'prepareColorPalette'
+1452622636245	Extract method 'clearTheScreen'
+1452623112159	Delete element
+1452623347488	Move compilation unit
+1452623368464	Move folder
+1452812360673	Rename resource 'TenRows.java'

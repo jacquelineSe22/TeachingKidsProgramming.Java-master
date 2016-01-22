@@ -1,0 +1,18 @@
+package org.teachingkidsprogramming.CodingChallenges;
+
+public class DivisibilityBy5
+{
+  public static void main(String[] args)
+  {
+    int num = 10;
+    int divisor = 2;
+    if (num % divisor == 0)
+    {
+      System.out.println("yes!");
+    }
+    else 
+    {
+      System.out.println("nope!");
+    }
+  }
+}

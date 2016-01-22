@@ -1,0 +1,30 @@
+package org.teachingkidsprogramming.section01forloops;
+
+import org.teachingextensions.logo.Tortoise;
+import org.teachingextensions.logo.utils.ColorUtils.ColorWheel;
+import org.teachingextensions.logo.utils.ColorUtils.PenColors;
+
+public class SimpleSquare
+{
+  public static void main(String[] args) throws Exception
+  {
+    ColorWheel.addColor(PenColors.Purples.DarkMagenta);
+    ColorWheel.addColor(PenColors.Greens.LightSeaGreen);
+    //  Show the tortoise --#1
+    Tortoise.show();
+    Tortoise.setSpeed(10);
+    for (int i = 0; i < 6; i++)
+    {
+      Tortoise.turn(65);
+      for (int j = 0; j < 4; j++)
+      {
+        Tortoise.setPenColor(ColorWheel.getNextColor());
+        Tortoise.move(50);
+        Tortoise.turn(90);
+      }
+    }
+    //
+    //  (Optional): Sign your work using the Virtual Proctor 
+    //  See your work at http://virtualproctor.tkpjava.org
+  }
+}

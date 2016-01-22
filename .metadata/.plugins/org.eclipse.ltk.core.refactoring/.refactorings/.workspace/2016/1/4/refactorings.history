@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;TeachingKidsProgramming/src/org/teachingkidsprogramming/section09final/FizzBuzzMrC.java&apos;" deleteContents="false" description="Delete resource &apos;TeachingKidsProgramming/src/org/teachingkidsprogramming/section09final/FizzBuzzMrC.java&apos;" element1="/TeachingKidsProgramming/src/org/teachingkidsprogramming/section09final/FizzBuzzMrC.java" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1453416606825"/>
+</session>

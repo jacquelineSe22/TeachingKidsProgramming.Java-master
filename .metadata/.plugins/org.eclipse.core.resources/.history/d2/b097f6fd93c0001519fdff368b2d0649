@@ -1,0 +1,13 @@
+package org.teachingkidsprogramming.section01forloops;
+
+import org.teachingextensions.logo.Tortoise;
+import org.teachingextensions.logo.utils.ColorUtils.PenColors.Purples;
+
+public class OwnTKPRecipe
+{
+  public static void main(String[] args)
+  {
+    Tortoise.show();
+    Tortoise.drawShape(360, Purples.DarkMagenta, 59, 60);
+  }
+}

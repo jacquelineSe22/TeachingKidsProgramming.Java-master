@@ -1,0 +1,17 @@
+package org.teachingkidsprogramming.section09final;
+
+public class FizzBuzzMrC
+
+{
+  public static void main(String[] args)
+  {
+    for (int i = 1; i <= 100; i++)
+    {
+      if (i % )
+      {
+        
+      }
+    }
+    
+  }
+}

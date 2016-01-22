@@ -1,0 +1,73 @@
+package org.teachingkidsprogramming.section08events;
+
+import org.teachingextensions.logo.utils.EventUtils.MessageBox;
+
+public class myCalculator
+{
+  public static void main(String[] args)
+  {
+    int num1 = MessageBox.askForNumericalInput("Please enter the first number");
+    MessageBox.showMessage("You entered: " + num1);
+    int num2 = MessageBox.askForNumericalInput("Please enter the second number");
+    MessageBox.showMessage("You entered: " + num2);
+    int answer1 = MessageBox.askForNumericalInput(
+        "Enter (1) for addition, (2) for subtraction, (3) for mulitplication, (4) for divsion:");
+    int sum = add(num1, num2);
+    if (answer1 == 1)
+    {
+      MessageBox.showMessage(num1 + "+" + num2 + " = " + sum);
+      System.exit(0);
+    }
+    int difference = subtract(num1, num2);
+    if (answer1 == 2)
+    {
+      MessageBox.showMessage(num1 + "-" + num2 + " = " + difference);
+      System.exit(0);
+    }
+    int product = multiply(num1, num2);
+    if (answer1 == 3)
+    {
+      MessageBox.showMessage(num1 + "*" + num2 + " = " + product);
+      System.exit(0);
+    }
+    int quotient = divide(num1, num2);
+    if (quotient == -1) { return; }
+    if (answer1 == 4)
+    {
+      MessageBox.showMessage(num1 + "/" + num2 + " = " + quotient);
+      System.exit(0);
+    }
+    int answer = pow(num1, num2);
+    MessageBox.showMessage(num1 + " to the power of " + num2 + "=" + answer);
+  }
+  public static int add(int n1, int n2)
+  {
+    return n1 + n2;
+  }
+  public static int subtract(int n1, int n2)
+  {
+    return n1 - n2;
+  }
+  public static int multiply(int n1, int n2)
+  {
+    return n1 * n2;
+  }
+  public static int divide(int n1, int n2)
+  {
+    if (n2 == 0)
+    {
+      MessageBox.showMessage("You cannot divide a number by 0");
+      return -1;
+    }
+    return n1 / n2;
+  }
+  public static int pow(int base, int exp)
+  {
+    int answer = 1;
+    for (int i = 0; i < exp; i++)
+    {
+      answer = answer * base;
+    }
+    return answer;
+  }
+}
